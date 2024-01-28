@@ -40,9 +40,9 @@ and question answering using BERT transformer model.
 
 ## Certifications
 - AWS Certified Solutions Architect Associate
-  : Udemy
+  , Udemy
 - PL900
-  : Microsoft
+  , Microsoft
 
 
 ## Skills
