@@ -1,5 +1,5 @@
 # Naveen Reddy Garlapati
-![Naveenprofilepic (1) (1)](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/be12be0a-28ca-4d47-b5ce-a260a51a9d10)
+![jpeg-optimizer_Naveenprofilepic](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/10f995ed-e77c-42b1-a2a7-499fa087aa18)
 
 
 
