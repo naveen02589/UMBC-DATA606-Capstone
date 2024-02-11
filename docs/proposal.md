@@ -4,7 +4,7 @@
 Traffic Prediction Analysis
 
 ### Prepared for
-UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
+UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang - SPRING 2024 Semester
 
 ### Author Name
 Naveen Reddy Garlapati
@@ -28,7 +28,7 @@ The core objective of this project is to develop a **Traffic Prediction Analysis
 ### What are your research questions?
 
 1. How accurately can machine learning models predict traffic conditions at different junctions in the city?
-2. What variables (e.g., time of day, weather conditions, special events) have the most significant impact on traffic patterns, and how can they be effectively incorporated into the prediction models?
+2. What variables (e.g., time of day, junction) have the most significant impact on traffic patterns, and how can they be effectively incorporated into the prediction models?
 3.  How do different machine learning algorithms compare in terms of their ability to predict traffic patterns, and which algorithms are most suitable for this task?
 4. Can the developed models provide accurate real-time predictions of traffic conditions, and what are the challenges in implementing real-time prediction systems?
 
@@ -44,28 +44,20 @@ The core objective of this project is to develop a **Traffic Prediction Analysis
 - **What does each row represent?**
   - This dataset contains 48.1k (48120) observations of the number of vehicles each hour in four different junctions. Each row in the dataset represents a single observation or data point captured at a specific time interval  for a particular junction
 
-### Data Dictionary for Traffic Prediction Dataset
+- **Data Dictionary:**
+   Traffic.csv
 
-#### Traffic.csv
-- **Purpose:** Provides comprehensive information about each recipe, including ingredients, cooking steps, and nutritional details.
-- **Columns:**
-  - **I. DateTime**
-    - **Dtype:** Categorical (Data)
-    - **Definition:** Time at which sensors collected the traffic data at different junctions
-    - **Potential Values:** Dates ranging from 2015 to 2017
-  - **II. Juction**
-    - **Dtype:** Numerical (Integer)
-    - **Definition:** Identifier of the junction where the traffic was collected
-    - **Potential Values:** 4 unique values
-  - **III. Vehicles**
-    - **Dtype:** Numerical (Integer)
-    - **Definition:** Number of vehicles observed at the specified junction during the corresponding time interval 
-  - **IV.  ID**
-    - **Dtype:** Categorical (Integer)
-    - **Definition:** Unique Id of the sensor
-  
+| Column Name  | Data Type | Definition | Potential Values (Categorical) |
+|--------------|-----------|---------------------------------------------------|--------------------------------|
+| DateTime     | Categorical (Data) | Time at which sensors collected the traffic data at different junctions | '11/1/2015  12:00:00 AM' ...|
+| Juction      | Numerical (Integer) | Identifier of the junction where the traffic was collected | 1, 2, 3, 4 |
+| Vehicles     | Numerical (Integer) | Number of vehicles observed at the specified junction during the corresponding time interval | 6,9 ... |
+| ID           | Categorical (Integer) | Unique Id of the sensor | 20151101001, 20151101031 ... |
+
 # Target/Label in ML Model
 The primary target for the machine learning models in this project is the Vehicles. 
 
 # Features/Predictors for ML Models
-Key feature and predictor that will be used in the machine learning models for this project include: DateTime derived attributes
+Key feature and predictor that will be used in the machine learning models for this project include: 
+- Junction
+- DateTime (and its derived attributes)
