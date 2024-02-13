@@ -49,7 +49,7 @@ The core objective of this project is to develop a **Traffic Prediction Analysis
 
 | Column Name  | Data Type | Definition | Potential Values (Categorical) |
 |--------------|-----------|---------------------------------------------------|--------------------------------|
-| DateTime     | Categorical (Data) | Time at which sensors collected the traffic data at different junctions | '11/1/2015  12:00:00 AM' ...|
+| DateTime     | Categorical (Date) | Time at which sensors collected the traffic data at different junctions | '11/1/2015  12:00:00 AM' ...|
 | Juction      | Numerical (Integer) | Identifier of the junction where the traffic was collected | 1, 2, 3, 4 |
 | Vehicles     | Numerical (Integer) | Number of vehicles observed at the specified junction during the corresponding time interval | 6,9 ... |
 | ID           | Categorical (Integer) | Unique Id of the sensor | 20151101001, 20151101031 ... |
