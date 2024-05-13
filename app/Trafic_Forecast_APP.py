@@ -20,7 +20,7 @@ columns_to_drop4 = ['Quarter', 'day_of_weekmin_vehicles', 'Monthmin_vehicles', '
 
 models = {}
 for i in range(1, 5):
-    with open(f"junction{i}_model.pkl", "rb") as file:
+    with open(f"https://github.com/naveen02589/UMBC-DATA606-Capstone/tree/main/models/junction{i}_model.pkl", "rb") as file:
         models[i] = pickle.load(file)
 
 def welcome_message():
@@ -47,7 +47,7 @@ def compute_traffic_prediction(junction, datetime_input):
     new_data['Seconds'] = pd.to_timedelta(new_data['DateTime'].dt.strftime('%H:%M:%S')).dt.total_seconds().astype(int)
     new_data['DateTime'] = new_data['DateTime'].values.astype(np.int64) // 10 ** 9
 
-    with open('Labelencoder.pkl', 'rb') as file:
+    with open('https://github.com/naveen02589/UMBC-DATA606-Capstone/tree/main/models/Labelencoder.pkl', 'rb') as file:
         encoder = pickle.load(file)
     new_data['Date'] = encoder.fit_transform(new_data['Date'])
 
