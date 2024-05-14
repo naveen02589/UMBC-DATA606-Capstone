@@ -21,15 +21,12 @@ columns_to_drop4 = ['Quarter', 'day_of_weekmin_vehicles', 'Monthmin_vehicles', '
 models = {}
 
 for i in range(1, 5):
-    	url = f"https://raw.githubusercontent.com/naveen02589/UMBC-DATA606-Capstone/main/models/junction{i}_model.pkl"
+	url = f"https://raw.githubusercontent.com/naveen02589/UMBC-DATA606-Capstone/main/models/junction{i}_model.pkl"
 	# Download the file
 	response = requests.get(url)
 	response.raise_for_status()  # Ensure that the download was successful
 	# Load the model from the downloaded content
 	models[i] = pickle.loads(response.content)
-		
-    # with open(f"junction{i}_model.pkl", "rb") as file:
-    #     models[i] = pickle.load(file)
 
 def welcome_message():
     return "Welcome to the Traffic Prediction System"
