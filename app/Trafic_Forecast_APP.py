@@ -9,7 +9,7 @@ import seaborn as sns
 import gc
 import streamlit as st
 import datetime
-
+import requests
 traffic_data = pd.read_csv(r'https://raw.githubusercontent.com/naveen02589/UMBC-DATA606-Capstone/main/data/traffic_clean.csv')
 traffic_data.drop('ID', axis=1, inplace=True)
 
