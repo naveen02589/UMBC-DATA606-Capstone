@@ -64,7 +64,6 @@ Key feature and predictor that will be used in the machine learning models for t
 
 # EDA
 
-
 # Model Training
 
  ## Models for Predictive Analytics:
@@ -75,7 +74,8 @@ Key feature and predictor that will be used in the machine learning models for t
 
  ## Development Environments:
 
-
+# Link to Presentation:
+ - Presentation - https://github.com/naveen02589/UMBC-DATA606-Capstone/blob/main/docs/Traffic%20Prediction.pptx
 # Web App Development:
 Developed and deployed web application using streamlit for users to interact with it and get the forecasting of traffic
  - Streamlit Cloud link : https://forecasttraffic.streamlit.app/
