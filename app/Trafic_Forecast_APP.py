@@ -10,7 +10,7 @@ import gc
 import streamlit as st
 import datetime
 
-traffic_data = pd.read_csv(r'https://raw.githubusercontent.com/naveen02589/UMBC-DATA606-Capstone/blob/main/data/traffic_clean.csv')
+traffic_data = pd.read_csv(r'https://raw.githubusercontent.com/naveen02589/UMBC-DATA606-Capstone/main/data/traffic_clean.csv')
 traffic_data.drop('ID', axis=1, inplace=True)
 
 columns_to_drop1 = ['Quartermedian_vehicles', 'day_of_weekmin_vehicles', 'Quartermax_vehicles', 'Quarter', 'Quartermin_vehicles', 'day_of_weekmedian_vehicles', 'Vehicles', 'Seconds', 'Junction']
