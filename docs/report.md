@@ -95,13 +95,6 @@ LightGBM models were trained separately for each junction to accommodate unique 
 
 Performance was measured using RMSE, MAPE, and MAE.
 
- ### Training Procedure:
-
- - Models are trained using a time series approach specific to each junction, ensuring the temporal patterns are respected.
-- Splitting the data into 80 - 20 for training and testing. A validation set is separated from the main dataset to evaluate the model's performance during the training phase.
-- Dropped irrelevant columns for the model training.
-- LightGBM, a gradient boosting framework, is utilized for its efficiency in handling large datasets and its ability to handle categorical features directly.
-
 ### Python Packages:
 
 - pandas and numpy for data manipulation.
@@ -114,6 +107,13 @@ Performance was measured using RMSE, MAPE, and MAE.
 
 The project is developed using Jupyter Notebook, hosted on Google Colab, which provides a powerful cloud-based environment that supports interactive data analysis and collaborative features.
 The models and scripts are also compatible with standard Python environments, ensuring they can be run locally or in other cloud environments as required.
+
+ ### Training Procedure:
+
+ - Models are trained using a time series approach specific to each junction, ensuring the temporal patterns are respected.
+- Splitting the data into 80 - 20 for training and testing. A validation set is separated from the main dataset to evaluate the model's performance during the training phase.
+- Dropped irrelevant columns for the model training.
+- LightGBM, a gradient boosting framework, is utilized for its efficiency in handling large datasets and its ability to handle categorical features directly.
 
 ### How will you measure and compare the performance of the models?:
 
