@@ -67,14 +67,16 @@ Key feature and predictor that will be used in the machine learning models for t
   
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/0293f390-c69b-4e76-ba19-fda5d68a88d8)
 
+Vehicular movement increased daily across all junctions except for Junction 4, which began recording data in January 2017.
+
 - 4.2 vehicular movement by month at different junctions
 
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/d6f29d96-a7d8-4b51-9c45-e8bd6e0afcd2)
+
 A notable increase in traffic was observed at Junctions 1 and 3 around June, likely due to summer-related activities during that period.
 
 - 4.3 vehicular movement by year at different junctions
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/93446def-b582-4727-9d8b-3bdbdf9d5b6d)
-Vehicular movement increased daily across all junctions except for Junction 4, which began recording data in January 2017.
 
 - 4.4 Average vehicular movement by day of the month at different junctions
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/2fd02815-c89b-4c40-9834-ccab943416e2)
@@ -83,10 +85,14 @@ All four junctions have shown a consistent yearly increase in vehicular traffic,
 
 - 4.5 Average vehicular movement by day of the week at different junctions
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/f45feace-4d32-49f2-a1e7-85b13dac817e)
+
 There is a clear decrease in traffic during weekends compared to the steady levels observed on weekdays.
+
 - 4.6 Average Hourly Traffic at Different Junctions
 
 ![image](https://github.com/naveen02589/UMBC-DATA606-Capstone/assets/30066521/769bcf18-0216-450a-b7ae-6ebd9a3f3d27)
+
+Except for Junction 4, traffic typically rises in the morning around 6 AM, remains stable throughout the afternoon, and decreases in the evening around 8 PM.
 
 # 5. Model Training
 
