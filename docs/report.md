@@ -1,24 +1,15 @@
-# 1. Title and Author
+# 1. Traffic Prediction System
 
-### Project Title
-Traffic Prediction Analysis
-
-### Prepared for
-UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang - SPRING 2024 Semester
-
-### Author Name
-Naveen Reddy Garlapati
-
-### Profiles and Presentations
+- **Project Title:** Traffic Prediction Analysis
+- **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang - SPRING 2024 Semester
+- **Author:** Naveen Reddy Garlapati
 - **GitHub Profile:** https://github.com/naveen02589
 - **Linkedin Profile:** https://www.linkedin.com/in/naveen-reddy-garlapati/
--  **Link to Powerpoint Presentation:** https://github.com/naveen02589/UMBC-DATA606-Capstone/blob/main/docs/Traffic%20Prediction.pptx
--  **Link to youtube video:** 
+-  **Powerpoint Presentation:** https://github.com/naveen02589/UMBC-DATA606-Capstone/blob/main/docs/Traffic%20Prediction.pptx
+-  **Youtube video:** https://youtu.be/a8xQaagL6MA
+-  **Application Interface:** https://forecasttraffic.streamlit.app/
 
 # 2. Background
-
-### What is the Project about?
-
 The core objective of this project is to develop a **Traffic Prediction Analysis** using data-driven techniques and machine learning models. The system is designed to derive insights from this analysis and then build a model that can be used to predict likelihood of traffic at particular times at different junctions in the city.
 
 ### Why does it matter?
@@ -27,14 +18,12 @@ The core objective of this project is to develop a **Traffic Prediction Analysis
 - **Reducing Commute Times:** By accurately predicting traffic conditions, commuters can plan their routes more effectively, potentially reducing commute times and enhancing overall productivity.
 - **Enhancing Safety:** Anticipating traffic conditions enables authorities to implement measures to address potential safety hazards and reduce the likelihood of accidents.
 
-### What are your research questions?
+### Research questions
 
 1. How accurately can machine learning models predict traffic conditions at different junctions in the city?
 2. What variables (e.g., time of day, junction) have the most significant impact on traffic patterns, and how can they be effectively incorporated into the prediction models?
 3.  How do different machine learning algorithms compare in terms of their ability to predict traffic patterns, and which algorithms are most suitable for this task?
 4. Can the developed models provide accurate real-time predictions of traffic conditions, and what are the challenges in implementing real-time prediction systems?
-
-
 
 # 3. About Dataset
 
@@ -64,7 +53,7 @@ Key feature and predictor that will be used in the machine learning models for t
 - Junction
 - DateTime (and its derived attributes)
 
-# 4. EDA
+# 4. Exploratory Data Analysis(EDA)
 
 - There are no missing values and duplicate rows in the dataset. 
 
