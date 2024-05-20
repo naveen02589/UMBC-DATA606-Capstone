@@ -5,7 +5,7 @@
 - **Author:** Naveen Reddy Garlapati
 - **GitHub Profile:** https://github.com/naveen02589
 - **Linkedin Profile:** https://www.linkedin.com/in/naveen-reddy-garlapati/
--  **Powerpoint Presentation:** https://github.com/naveen02589/UMBC-DATA606-Capstone/blob/main/docs/Traffic%20Prediction.pptx
+-  **Powerpoint Presentation:** https://github.com/naveen02589/UMBC-DATA606-Capstone/blob/main/docs/606_CapstoneProject.pptx
 -  **Youtube video:** https://youtu.be/a8xQaagL6MA
 -  **Application Interface:** https://forecasttraffic.streamlit.app/
 
